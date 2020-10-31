@@ -3,7 +3,7 @@ from django.utils.html import mark_safe
 from modeltranslation.admin import TabbedTranslationAdmin
 from .filters import IsActiveFilter
 from .models import *
-from sw_utils.sw_solo.admin import SingletonModelAdmin
+from sw_solo.admin import SingletonModelAdmin
 from .resources import * 
 
 
