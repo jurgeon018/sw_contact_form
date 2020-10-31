@@ -1,9 +1,9 @@
 from django.db import models 
 from django.utils.translation import gettext_lazy as _
 
-from box.core.models import AbstractRecipientEmail
+from sw_utils.models import AbstractRecipientEmail
 
-from box.core.sw_solo.models  import SingletonModel
+from sw_utils.sw_solo.models  import SingletonModel
 
 
 class ContactConfig(SingletonModel):
